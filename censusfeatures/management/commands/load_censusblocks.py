@@ -4,6 +4,7 @@ from django.contrib.gis.utils import LayerMapping
 from django.contrib.gis.geos import MultiPolygon
 from django.contrib.gis.gdal import OGRException
 from django.db.utils import IntegrityError
+from django.core.management.base import NoArgsCommand
 
 from optparse import make_option
 from django.core.management.base import BaseCommand, CommandError
